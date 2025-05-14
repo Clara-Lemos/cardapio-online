@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio | Hotel Hannover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: steelblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            text-align: center;
+        }
+        .links {
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .links a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-bottom: 15px; 
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .prato {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+        }
+        .prato img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .prato span {
+            margin-top: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cardápio</h1>
+
+        <div class="links">
+            <a href="#porcoes">Porções</a>
+            <a href="#pasteis">Pastéis</a>
+            <a href="#massas">Massas</a>
+            <a href="#hamburguers">Hamburguer</a>
+            <a href="#bebidas">Bebidas</a>
+        </div>
+        <div id="porcoes" class="section">
+            <h3>Porções</h3>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="fritas.html"><img src="fritas.jpeg" alt="porção de fritas"></a>
+                    <span>Fritas</span>
+                </div>
+                <div class="prato">
+                    <a href="fritascomcheddar.html"><img src="fritas com chedar e bacon.jpg" alt="porção de fritas com cheddar e bacon"></a>
+                    <span>Fritas com cheddar e bacon</span>
+                </div>
+                <div class="prato">
+                    <a href="almofadinhadequeijo.html"><img src="almofadinha.jpeg" alt="almofadinha de mussarela"></a>
+                    <span>Almofadinha de queijo mussarela</span>
+                </div>
+                <div class="prato">
+                    <a href="almofadinhadecarne.html"><img src="bolinho de carne seca.jpeg" alt="bolinho de carne seca"></a>
+                    <span>Bolinho de mandioca com carne seca</span>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="bolinhocomprovolone.html"><img src="bolinho de provolone.jpeg" alt="bolinho de provolone"></a>
+                    <span>Bolinho de mandioca com provolone</span>
+                </div>
+                <div class="prato">
+                    <a href="polentafrita.html"><img src="polenta.jpeg" alt="polenta frita"></a>
+                    <span>Polenta frita</span>
+                </div>
+                <div class="prato">
+                    <a href="dadinho.html"><img src="dadinho de tapioca.jpeg" alt="dadinho de tapioca"></a>
+                    <span>Dadinho de tapioca</span>
+                </div>
+                <div class="prato">
+                    <a href="aneisdecbola.html"><img src="aneis.jpeg" alt="aneis de cebola"></a>
+                    <span>Anéis de cebola</span>
+                </div>
+            </div>
+        </div>
+        <div id="pasteis" class="section">
+            <h3>Pastéis</h3>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="pastelcarne.html"><img src="pastel de carne.jpg" alt="Pastel de carne"></a>
+                    <span>Pastel de carne</span>
+                </div>
+                <div class="prato">
+                    <a href="pastelfrango.html"><img src="frango com requeijao.jpg" alt="pastel de frango e requeijao"></a>
+                    <span>Pastel de frango com requeijão</span>
+                </div>
+                <div class="prato">
+                    <a href="pastelchocolate.html"><img src="pastel choco.jpg" alt="pastel de chocolate preto"></a>
+                    <span>Pastel de chocolate preto</span>
+                </div>
+                <div class="prato">
+                    <a href="pastelcalabresa.html"><img src="pastel calabresa.png" alt="pastel de calabresa"></a>
+                    <span>Pastel de calabresa</span>
+                </div>
+            </div>
+        </div>
+        <div id="massas" class="section">
+            <h3>Massas</h3>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="massacarbonara.html"><img src="massa carbonara.jpg" alt="Massa ao molho carbonara"></a>
+                    <span>Massa ao molho carbonara</span>
+                </div>
+                <div class="prato">
+                    <a href="massacalabresa.html"><img src="massa calabresa.jpg" alt="Massa com calabresa"></a>
+                    <span>Massa com calabresa</span>
+                </div>
+                <div class="prato">
+                    <a href="carnepanela.html"><img src="carne de panela.jpg" alt="Massa com carne de panela"></a>
+                    <span>Massa com carne de panela</span>
+                </div>
+                <div class="prato">
+                    <a href="massacamarao.html"><img src="camaraop.jpeg" alt="Massa com camarão"></a>
+                    <span>Massa com camarão</span>
+                </div>
+            </div>
+        </div>
+        <div id="hamburguers" class="section">
+            <h3>Hamburgueres</h3>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="hambbarbecue.html"><img src="hambbarbe.jpg" alt="Hamburguer de barbecue"></a>
+                    <span>Hamburguer de barbecue</span>
+                </div>
+                <div class="prato">
+                    <a href="smash.html"><img src="smash.jpeg" alt="Hambúrguer Smash duplo"></a>
+                    <span>Hambúrguer Smash duplo</span>
+                </div>
+                <div class="prato">
+                    <a href="quatroqueijos.html"><img src="quatro queijos.jpeg" alt="Hambúrguer Quatro Queijos"></a>
+                    <span>Hambúrguer Quatro Queijos</span>
+                </div>
+                <div class="prato">
+                    <a href="crocante.html"><img src="crocante.jpeg" alt="Hambúrguer crocante"></a>
+                    <span>Hambúrguer crocante</span>
+                </div>
+            </div>
+        </div>
+        <div id="bebidas" class="section">
+            <h3>Bebidas</h3>
+            <div class="galeria">
+                <div class="prato">
+                    <a href="pepsi.html"><img src="pepsi.png" alt="Pepsi 2L"></a>
+                    <span>Pepsi 2L</span>
+                </div>
+                <div class="prato">
+                    <a href="cocacola.html"><img src="coca cola.png" alt="Coca cola 2l"></a>
+                    <span>Coca cola 2L</span>
+                </div>
+                <div class="prato">
+                    <a href="heineken.html"><img src="heineken.jpeg" alt="Cerveja Heineken 330ml"></a>
+                    <span>Cerveja Heineken 330ml</span>
+                </div>
+                <div class="prato">
+                    <a href="agua.html"><img src="agua.jpeg" alt="Água mineral Cristal 500ml"></a>
+                    <span>Água mineral Cristal 500ml</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
